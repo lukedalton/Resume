@@ -1,0 +1,93 @@
+$font-stack: Helvetica, Times, Courier;
+$text-color: green;
+
+.App {
+  font-family: $font-stack;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(10%, 100%);
+  box-sizing: border-box;
+  color: #ae752e;
+}
+.section-header{
+  margin-left: 20px;
+  color: #fab35b;
+}
+.info-header{
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.person-details{
+  list-style: none;
+  display: inline-block;
+}
+.left-side-header{
+  width: 30%;
+  float: left;
+  margin: 1.5% 0 1.5% 1.5%;
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li:first-child{
+      text-align:  center;
+    }
+  }
+}
+.center-header{
+  display: inline-block;
+  width: 30%;
+}
+.right-side-header{
+  width: 30%;
+  text-align: right;
+  float: right;
+  margin: 1.5% 1.5% 1.5% 0;
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+.education{
+  grid-column: 1 / 4;
+  grid-row: 3;
+  ul{
+    list-style: none;
+  }
+  li:first-child{
+    font-weight: bold;
+  }
+  li:nth-child(3){
+    margin-bottom: 1%;
+  }
+}
+.work-history{
+  grid-column: 1 / 3;
+  grid-row: 2;
+  ul{
+    list-style: none;
+  }
+  li:nth-child(1){
+    font-weight: bold;
+    margin-top: 1%;
+  }
+  li:nth-child(3){
+    margin-top: .75%;
+  }
+  li:nth-child(4){
+    margin-top: .65%;
+  }
+
+}
+.skillset{
+  grid-column: 3 / 4;
+  grid-row: 2;
+  margin-left: 20%;
+  ul{
+    list-style: none;
+  }
+  li{
+    padding: 2% 2% 0 2%;
+  }
+}

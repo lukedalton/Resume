@@ -1,0 +1,89 @@
+{
+  "about":
+    {
+      "name":"Luke Dalton",
+      "blurb":"I am a recent graduate that is hungry to learn more in a real-world setting, and to help build cutting edge software along the way.",
+      "address":"813 Sedgegrass Dr. Champaign, IL 61822",
+      "email":"luke.dalton17@gmail.com",
+      "phone":"217-766-7802",
+      "githubUN":"lukedalton",
+      "githublink":"https://github.com/lukedalton"
+    },
+  "work":[
+    {
+      "business":"Kirby Medical Center",
+      "title":"Computer Technician I",
+      "start":"February 2014",
+      "end":"Present",
+      "description":"I currently deploy, troubleshoot, and maintain PCs and servers (hardware & software), create user accounts, maintain intranet page, create file shares, program telephone and door systems, minor networking tasks, and anything else that comes to our small IT department.",
+      "cooperation":"Worked with members of other departments to select, and implement a new time keeping system.  Helped coordinate tearing down, moving, and rebuilding several departments' workspace during a remodel.  Deployed and maintain virtual environment. Recipient of several thank you cards for exceptional attitude, and helpfulness."
+    },
+    {
+      "business":"Parkland College",
+      "title":"Teacher's Assistant",
+      "start":"August 2013",
+      "end":"December 2013",
+      "description":"Assisted students with learning, and troubleshooting the Java programming language, and computer programming basics."
+    },
+    {
+      "business":"Super Pantry",
+      "title":"Assistant Manager",
+      "start":"March 2011",
+      "end":"December 2013",
+      "description":"At Super Pantry I reconciled paperwork, created work schedule, prepared bank deposit, and provided outstanding customer service to customers."
+    }
+  ],
+  "education":[
+    {
+      "institution":"Parkland College",
+      "degree":"Associates of Applied Science",
+      "focus":"Computer Programming and Database Administration",
+      "studied":"August 2007 - August 2013"
+    },
+    {
+      "institution":"University of Illinois-Springfield",
+      "degree":"Bachelors of Science",
+      "focus":"Software Engineering",
+      "studied":"August 2013 - December 2017"
+    }
+  ],
+  "skills":[
+    {
+      "skill":"React",
+      "proficiency":""
+    },
+    {
+      "skill":"JavaScript",
+      "proficiency":""
+    },
+    {
+      "skill":"CSS",
+      "proficiency":""
+    },
+    {
+      "skill":"NodeJS",
+      "proficiency":""
+    },
+    {
+      "skill":"MongoDB",
+      "proficiency":""
+    },
+    {
+      "skill":"PHP",
+      "proficiency":""
+    },
+    {
+      "skill":"MySQL",
+      "proficiency":""
+    },
+    {
+      "skill":"Git",
+      "proficiency":""
+    },
+    {
+      "skill":"HTML",
+      "proficiency":""
+    }
+  ]
+
+}
