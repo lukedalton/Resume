@@ -2,7 +2,7 @@
   font-family: Helvetica, Times, Courier;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(10%, 100%);
+  grid-auto-rows: minmax(10%,);
   box-sizing: border-box;
   color: #ae752e;
 }
