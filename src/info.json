@@ -2,7 +2,7 @@
   "about": {
     "name": "Luke Dalton",
     "blurb":
-      "I am a recent graduate that is eager to learn more in a real-world setting, and help build awesome websites.",
+      "Software engineer interested in joining a great team, and build awesome applications.",
     "address": "813 Sedgegrass Dr. Champaign, IL 61822",
     "email": "luke.dalton17@gmail.com",
     "phone": "217-766-7802",
@@ -15,7 +15,7 @@
       "title": "Software Engineer",
       "start": "January 2019",
       "end": "Present",
-      "description": "Update legacy code, troubleshoot possible software issues for customers,  and develop sotware for flight simulators. "
+      "description": "Currently I develop software for flight simulators, integrate software with aircraft avionics, update legacy code, and troubleshoot possible software issues for customers."
     },
     {
       "business": "Kirby Medical Center",
@@ -23,7 +23,7 @@
       "start": "February 2014",
       "end": "July 2019",
       "description":
-        "I currently deploy, troubleshoot, and maintain PCs and servers (hardware & software), create user accounts, maintain intranet page, create file shares, program telephone and door systems, minor networking tasks, and anything else that comes to our small IT department.",
+        "At Kirby I deployed, troubleshot, and maintained PCs and servers (hardware & software). In addition, I created user accounts, maintained intranet page, created file shares, programmed telephone and door systems, performed minor networking tasks, and worked on pretty much anything electronic.",
       "cooperation":
         "Worked with members of other departments to select, and implement a new time keeping system.  Helped coordinate tearing down, moving, and rebuilding several departments' workspace during a remodel.  Deployed and maintain virtual environment. Recipient of several thank you cards for exceptional attitude, and helpfulness."
     },
@@ -60,15 +60,11 @@
   ],
   "skills": [
     {
-      "skill": "React",
-      "proficiency": ""
-    },
-    {
       "skill": "JavaScript",
       "proficiency": ""
     },
     {
-      "skill": "RESTful APIs",
+      "skill": "React",
       "proficiency": ""
     },
     {
@@ -76,7 +72,15 @@
       "proficiency": ""
     },
     {
+      "skill": "HTML",
+      "proficiency": ""
+    },
+    {
       "skill": "NodeJS",
+      "proficiency": ""
+    },
+    {
+      "skill": "Git",
       "proficiency": ""
     },
     {
@@ -92,11 +96,7 @@
       "proficiency": ""
     },
     {
-      "skill": "Git",
-      "proficiency": ""
-    },
-    {
-      "skill": "HTML",
+      "skill": "Jira",
       "proficiency": ""
     },
     {
@@ -104,7 +104,15 @@
       "proficiency": ""
     },
     {
+      "skill": "C#",
+      "proficiency": ""
+    },
+    {
       "skill": "Java",
+      "proficiency": ""
+    },
+    {
+      "skill": "Ruby",
       "proficiency": ""
     }
   ]

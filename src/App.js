@@ -11,9 +11,12 @@ class App extends Component {
     return (
       <div className="App">
         <Details details={Info.about} />
-        <Work work={Info.work} />
+        <div className="work-and-skill-row">
+          <Work work={Info.work} />
+          <Skills skill={Info.skills} />
+        </div>
         <Education education={Info.education} />
-        <Skills skill={Info.skills} />
+        
       </div>
     );
   }

@@ -1,100 +1,109 @@
 .App {
   font-family: Helvetica, Times, Courier;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(10%,);
-  box-sizing: border-box;
-  color: #ae752e;
+  color: rgb(73, 71, 71);
+  margin: auto;
+  width: 75%;
+  font-size: 1.75vw;
 }
 
 .section-header {
-  margin-left: 20px;
-  color: #fab35b;
+  color: #fcca28;
+  margin: 0;
+}
+
+.work-and-skill-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .info-header {
-  grid-column: 1/4;
-  grid-row: 1;
+  display: flex;
+  flex-direction: row;
 }
 
-.person-details {
-  list-style: none;
-  display: inline-block;
+.theNameIsDalton {
+  color: #fcca28;
+}
+
+.emailAddress {
+  color: #fcca28;
+}
+
+.githubUN{
+  color: #fcca28;
+  text-decoration: none;
 }
 
 .left-side-header {
-  width: 30%;
-  float: left;
-  margin: 1.5% 0 1.5% 1.5%;
+  width: 50%;
+  justify-content: left;
 }
 .left-side-header ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 .left-side-header ul li:first-child {
+  font-weight: bolder;
   text-align: center;
 }
 
-.center-header {
-  display: inline-block;
-  width: 30%;
-}
-
 .right-side-header {
-  width: 30%;
   text-align: right;
-  float: right;
-  margin: 1.5% 1.5% 1.5% 0;
+  width: 50%;
 }
 .right-side-header ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.education {
-  grid-column: 1/4;
-  grid-row: 3;
-}
-.education ul {
-  list-style: none;
-}
-.education li:first-child {
-  font-weight: bold;
-}
-.education li:nth-child(3) {
-  margin-bottom: 1%;
 }
 
 .work-history {
-  grid-column: 1/3;
-  grid-row: 2;
+  display: flex;
+  flex-direction: column;
 }
 .work-history ul {
   list-style: none;
 }
 .work-history li:nth-child(1) {
   font-weight: bold;
-  margin-top: 1%;
+  margin-top: 0.5%;
 }
 .work-history li:nth-child(3) {
   margin-top: 0.75%;
 }
 .work-history li:nth-child(4) {
-  margin-top: 0.65%;
+  margin-top: 0.8%;
+  margin-bottom: 1%;
+}
+.job-title {
+  color: #fcca28;
+}
+.job-date {
+  color: #b44ee4;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+}
+.education ul {
+  list-style: none;
+}
+.education li:first-child {
+  font-weight: bold;
+  color: #fcca28;
+}
+.education li:nth-child(3) {
+  margin-bottom: 1%;
+  color: #b44ee4;
 }
 
 .skillset {
-  grid-column: 3/4;
-  grid-row: 2;
-  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
 }
 .skillset ul {
   list-style: none;
 }
 .skillset li {
-  padding: 2% 2% 0 2%;
+  margin-top: 0.25%;
 }
 
 /*# sourceMappingURL=app.css.map */
