@@ -3,7 +3,7 @@
     "name": "Luke Dalton",
     "blurb":
       "Software engineer interested in joining a great team, and build awesome applications.",
-    "address": "813 Sedgegrass Dr. Champaign, IL 61822",
+    "address": "16527 Dominion Dr Fortville, IN 46040",
     "email": "luke.dalton17@gmail.com",
     "phone": "217-766-7802",
     "githubUN": "lukedalton",
@@ -11,14 +11,24 @@
   },
   "work": [
     {
+      "business": "Allied Solutions",
+      "location": "Carmel, IN",
+      "title": "Software Engineer",
+      "start": "January 2021",
+      "end": "Present",
+      "description": "Currently I'm working on Allied's main application that tracks thousands of loans, and the information related to those loans.  Including working on backend infrastructure, API work, and "
+    },
+    {
       "business": "Frasca International Inc.",
+      "location": "Urbana, IL",
       "title": "Software Engineer",
       "start": "January 2019",
-      "end": "Present",
-      "description": "Currently I develop software for flight simulators, integrate software with aircraft avionics, update legacy code, and troubleshoot possible software issues for customers."
+      "end": "December 2020",
+      "description": "I developed software for flight simulators, integrated software with aircraft avionics, update legacy (c++)code, and troubleshoot possible software issues for customers."
     },
     {
       "business": "Kirby Medical Center",
+      "location": "Monticello, IL",
       "title": "Systems Administrator",
       "start": "February 2014",
       "end": "July 2019",
@@ -29,6 +39,7 @@
     },
     {
       "business": "Parkland College",
+      "location": "Champaign, IL",
       "title": "Teacher's Assistant",
       "start": "August 2013",
       "end": "December 2013",
@@ -37,6 +48,7 @@
     },
     {
       "business": "Super Pantry",
+      "location": "Monticello, IL",
       "title": "Assistant Manager",
       "start": "March 2011",
       "end": "December 2013",
@@ -59,6 +71,14 @@
     }
   ],
   "skills": [
+    {
+      "skill": "C#",
+      "proficiency": ""
+    },
+    {
+      "skill": "C++",
+      "proficiency": ""
+    },
     {
       "skill": "JavaScript",
       "proficiency": ""
@@ -92,27 +112,15 @@
       "proficiency": ""
     },
     {
+      "skill": "SQL Server",
+      "proficiency": ""
+    },
+    {
+      "skill": "Go",
+      "proficiency": ""
+    },
+    {
       "skill": "MySQL",
-      "proficiency": ""
-    },
-    {
-      "skill": "Jira",
-      "proficiency": ""
-    },
-    {
-      "skill": "C++",
-      "proficiency": ""
-    },
-    {
-      "skill": "C#",
-      "proficiency": ""
-    },
-    {
-      "skill": "Java",
-      "proficiency": ""
-    },
-    {
-      "skill": "Ruby",
       "proficiency": ""
     }
   ]

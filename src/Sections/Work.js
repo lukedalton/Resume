@@ -6,7 +6,7 @@ function WorkHistory (props){
   const history = props.history;
   const historyList = history.map((jobs) =>
     <div className="job">
-      <li className="job-title">{jobs.title} @ {jobs.business}</li>
+      <li className="job-title">{jobs.title} @ {jobs.business}&emsp;<i class="fas fa-map-marker-alt"></i> {jobs.location} </li>
       <li className="job-date">{jobs.start} to {jobs.end}</li>
       <li className="job-description">{jobs.description}</li>
       {jobs.cooperation ? <li>{jobs.cooperation}</li> : <li></li>}
