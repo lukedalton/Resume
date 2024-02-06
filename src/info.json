@@ -2,7 +2,7 @@
   "about": {
     "name": "Luke Dalton",
     "blurb":
-      "Software engineer interested in joining a great team, and build awesome applications.",
+      "Software engineer interested in joining a great remote team, and build awesome solutions.",
     "address": "16527 Dominion Dr Fortville, IN 46040",
     "email": "luke.dalton17@gmail.com",
     "phone": "217-766-7802",
@@ -16,15 +16,15 @@
       "title": "Software Engineer",
       "start": "January 2021",
       "end": "Present",
-      "description": "Currently I'm working on Allied's main application that tracks thousands of loans, and the information related to those loans.  Including working on backend infrastructure, API work, and "
+      "description": "Currently I'm working on Allied's main desktop application (C#/.NET) that tracks thousands of loans, and the information related to those loans. I'm part of the software engineer team that is going to start the design and implementation of our new microservice architecture."
     },
     {
       "business": "Frasca International Inc.",
       "location": "Urbana, IL",
-      "title": "Software Engineer",
+      "title": "System Software Engineer",
       "start": "January 2019",
       "end": "December 2020",
-      "description": "I developed software for flight simulators, integrated software with aircraft avionics, update legacy (c++)code, and troubleshoot possible software issues for customers."
+      "description": "I developed and integrated software for flight simulators, updated legacy (C++) code, engineering lead on several successful and on-time projects, as well as troubleshot possible software issues for customers."
     },
     {
       "business": "Kirby Medical Center",
@@ -45,15 +45,6 @@
       "end": "December 2013",
       "description":
         "Assisted students with learning, and troubleshooting the Java programming language, and computer programming basics."
-    },
-    {
-      "business": "Super Pantry",
-      "location": "Monticello, IL",
-      "title": "Assistant Manager",
-      "start": "March 2011",
-      "end": "December 2013",
-      "description":
-        "At Super Pantry I reconciled paperwork, created work schedule, prepared bank deposit, and provided outstanding customer service to customers."
     }
   ],
   "education": [
@@ -112,7 +103,7 @@
       "proficiency": ""
     },
     {
-      "skill": "SQL Server",
+      "skill": "SQL",
       "proficiency": ""
     },
     {

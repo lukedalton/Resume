@@ -1,109 +1,102 @@
 .App {
   font-family: Helvetica, Times, Courier;
-  color: rgb(73, 71, 71);
-  margin: auto;
-  width: 75%;
-  font-size: 1.75vw;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  box-sizing: border-box;
 }
 
 .section-header {
-  color: #fcca28;
-  margin: 0;
-}
-
-.work-and-skill-row {
-  display: flex;
-  flex-direction: row;
+  margin-left: 20px;
 }
 
 .info-header {
-  display: flex;
-  flex-direction: row;
+  grid-column: 1/3;
+  grid-row: 1;
 }
 
-.theNameIsDalton {
-  color: #fcca28;
-}
-
-.emailAddress {
-  color: #fcca28;
-}
-
-.githubUN{
-  color: #fcca28;
-  text-decoration: none;
+.person-details {
+  list-style: none;
+  display: inline-block;
 }
 
 .left-side-header {
-  width: 50%;
-  justify-content: left;
+  width: 30%;
+  float: left;
+  margin: 1.5% 0 1.5% 1.5%;
 }
 .left-side-header ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .left-side-header ul li:first-child {
-  font-weight: bolder;
   text-align: center;
 }
 
+.center-header {
+  display: inline-block;
+  width: 30%;
+}
+
 .right-side-header {
+  width: 30%;
   text-align: right;
-  width: 50%;
+  float: right;
+  margin: 1.5% 1.5% 1.5% 0;
 }
 .right-side-header ul {
   list-style: none;
-}
-
-.work-history {
-  display: flex;
-  flex-direction: column;
-}
-.work-history ul {
-  list-style: none;
-}
-.work-history li:nth-child(1) {
-  font-weight: bold;
-  margin-top: 0.5%;
-}
-.work-history li:nth-child(3) {
-  margin-top: 0.75%;
-}
-.work-history li:nth-child(4) {
-  margin-top: 0.8%;
-  margin-bottom: 1%;
-}
-.job-title {
-  color: #fcca28;
-}
-.job-date {
-  color: #b44ee4;
+  padding: 0;
+  margin: 0;
 }
 
 .education {
-  display: flex;
-  flex-direction: column;
+  grid-column: 1;
+  grid-row: 3;
 }
 .education ul {
   list-style: none;
 }
 .education li:first-child {
   font-weight: bold;
-  color: #fcca28;
 }
 .education li:nth-child(3) {
   margin-bottom: 1%;
-  color: #b44ee4;
+}
+
+.work-history {
+  grid-column: 1;
+  grid-row: 2;
+  margin-right:5%;
+}
+.work-history ul {
+  list-style: none;
+}
+.work-history li:nth-child(1) {
+  font-weight: bold;
+  margin-top: 1%;
+}
+.work-history li:nth-child(3) {
+  margin-top: 0.75%;
+}
+.work-history li:nth-child(4) {
+  margin-top: 0.65%;
 }
 
 .skillset {
-  display: flex;
-  flex-direction: column;
+  grid-column: 2/2;
+  grid-row: 2;
+  margin-right: 20%;
 }
 .skillset ul {
   list-style: none;
+  padding: 0;
 }
 .skillset li {
-  margin-top: 0.25%;
+  padding: 2% 2% 0 2%;
 }
 
+.skillset h2 {
+  margin-left: 0;
+}
 /*# sourceMappingURL=app.css.map */
