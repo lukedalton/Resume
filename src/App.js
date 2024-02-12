@@ -14,7 +14,6 @@ class App extends Component {
         <Work work={Info.work} />
         <Skills skill={Info.skills} />
         <Education education={Info.education} />
-        
       </div>
     );
   }

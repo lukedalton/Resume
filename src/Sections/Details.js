@@ -16,12 +16,7 @@ class Details extends Component {
           <ul>
             <li className="emailAddress">{this.props.details.email}</li>
             <li>{this.props.details.address}</li>
-            <li>
-              <i className="fab fa-github"></i>
-              <a className="githubUN" href="https://github.com/lukedalton">
-                {this.props.details.githubUN}
-              </a>
-            </li>
+            <li>{this.props.details.phone}</li>
           </ul>
         </div>
       </div>

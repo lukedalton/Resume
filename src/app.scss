@@ -1,58 +1,6 @@
 .App {
   font-family: Helvetica, Times, Courier;
-<<<<<<< Updated upstream
-  color: rgb(73, 71, 71);
-  margin: auto;
-  width: 75%;
-  font-size: 1.75vw;
-}
-
-.section-header {
-  color: #fcca28;
-  margin: 0;
-}
-
-.work-and-skill-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.info-header {
-  display: flex;
-  flex-direction: row;
-}
-
-.theNameIsDalton {
-  color: #fcca28;
-}
-
-.emailAddress {
-  color: #fcca28;
-}
-
-.githubUN {
-  color: #fcca28;
-  text-decoration: none;
-}
-
-.left-side-header {
-  width: 50%;
-  justify-content: left;
-}
-
-.left-side-header ul {
-  list-style: none;
-}
-
-.left-side-header ul li:first-child {
-  font-weight: bolder;
-  text-align: center;
-}
-
-.right-side-header {
-  text-align: right;
-  width: 50%;
-=======
+  font-size: small;
   display: grid;
   grid-template-columns: repeat(3, auto);
   box-sizing: border-box;
@@ -98,18 +46,10 @@
   text-align: right;
   float: right;
   margin: 1.5% 1.5% 1.5% 0;
->>>>>>> Stashed changes
 }
 
 .right-side-header ul {
   list-style: none;
-<<<<<<< Updated upstream
-}
-
-.work-history {
-  display: flex;
-  flex-direction: column;
-=======
   padding: 0;
   margin: 0;
 }
@@ -134,70 +74,10 @@
 .work-history {
   grid-column: 1;
   grid-row: 2;
-  margin-right: 5%;
->>>>>>> Stashed changes
 }
 
 .work-history ul {
   list-style: none;
-<<<<<<< Updated upstream
-}
-
-.work-history li:nth-child(1) {
-  font-weight: bold;
-  margin-top: 0.5%;
-}
-
-.work-history li:nth-child(3) {
-  margin-top: 0.75%;
-}
-
-.work-history li:nth-child(4) {
-  margin-top: 0.8%;
-  margin-bottom: 1%;
-}
-
-.job-title {
-  color: #fcca28;
-}
-
-.job-date {
-  color: #b44ee4;
-}
-
-.education {
-  display: flex;
-  flex-direction: column;
-}
-
-.education ul {
-  list-style: none;
-}
-
-.education li:first-child {
-  font-weight: bold;
-  color: #fcca28;
-}
-
-.education li:nth-child(3) {
-  margin-bottom: 1%;
-  color: #b44ee4;
-}
-
-.skillset {
-  display: flex;
-  flex-direction: column;
-}
-
-.skillset ul {
-  list-style: none;
-}
-
-.skillset li {
-  margin-top: 0.25%;
-}
-
-=======
 }
 
 .work-history li:nth-child(1) {
@@ -214,25 +94,14 @@
 }
 
 .skillset {
-  grid-column: 2/2;
-  grid-row: 2;
+  grid-column: 1;
+  grid-row: 4;
   margin-right: 20%;
 }
 
-.skillset ul {
-  list-style: none;
-  padding: 0;
-}
-
 .skillset li {
-  padding: 2% 2% 0 2%;
+  padding: 0 1% 0 1%;
+  display: inline;
+  float: left;
 }
-
-.skillset h2 {
-  margin-left: 0;
-}
-
->>>>>>> Stashed changes
-
-
 /*# sourceMappingURL=app.scss.map */

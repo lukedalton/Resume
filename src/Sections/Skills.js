@@ -18,7 +18,7 @@ class Skills extends Component{
   render(){
     return(
       <div className="skillset">
-        <h2 className="section-header"><i class="fas fa-code"></i>Skills</h2>
+        <h2 className="section-header">Skills</h2>
         <SkillList skill={this.props.skill} />
       </div>
     )

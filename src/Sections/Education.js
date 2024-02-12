@@ -20,7 +20,7 @@ class Education extends Component{
   render(){
     return(
       <div className="education">
-        <h2 className="section-header"><i className="fas fa-graduation-cap"></i>Education</h2>
+        <h2 className="section-header">Education</h2>
         <SchoolList school={this.props.education} />
       </div>
     )

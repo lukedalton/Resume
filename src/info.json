@@ -2,7 +2,7 @@
   "about": {
     "name": "Luke Dalton",
     "blurb":
-      "Software engineer interested in joining a ambitous remote team, and build awesome solutions.",
+      "I'm a Software engineer interested in joining a ambitous remote team, and build awesome solutions.",
     "address": "16527 Dominion Dr Fortville, IN 46040",
     "email": "luke.dalton17@gmail.com",
     "phone": "217-766-7802",
@@ -16,7 +16,7 @@
       "title": "Software Engineer",
       "start": "January 2021",
       "end": "Present",
-      "description": "Currently I'm working on Allied's main monolithic desktop application (C#/.NET) that tracks thousands of loans, and the information related to those loans.  My work has me working up and down the stack while primarily focusing on backend business logic and API enhancement. As a member of this team we have started the design and implementation of our new microservice architecture leveraging AWS."
+      "description": "Currently I'm working on Allied's main monolithic desktop application (C#/.NET) that tracks thousands of loans, and the information related to those loans.  My work has me working up and down the stack while primarily focusing on backend business logic and RESTful API enhancement. As a member of this team we have started the design and implementation of our new microservice architecture leveraging AWS."
     },
     {
       "business": "Frasca International Inc.",
@@ -67,6 +67,9 @@
       "proficiency": ""
     },
     {
+      "skill": ".NET"
+    },
+    {
       "skill": "C++",
       "proficiency": ""
     },
@@ -99,7 +102,7 @@
       "proficiency": ""
     },
     {
-      "skill": "PHP",
+      "skill": "Jira",
       "proficiency": ""
     },
     {
