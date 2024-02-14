@@ -1,8 +1,8 @@
 {
   "about": {
-    "name": "Luke Dalton",
+    "name": "Lucas Dalton",
     "blurb":
-      "I'm a Software engineer interested in joining a ambitous remote team, and build awesome solutions.",
+      "I'm a Software engineer who loves to solve problems, be a great teammate, and continuously learn.",
     "address": "16527 Dominion Dr Fortville, IN 46040",
     "email": "luke.dalton17@gmail.com",
     "phone": "217-766-7802",
@@ -16,7 +16,7 @@
       "title": "Software Engineer",
       "start": "January 2021",
       "end": "Present",
-      "description": "Currently I'm working on Allied's main monolithic desktop application (C#/.NET) that tracks thousands of loans, and the information related to those loans.  My work has me working up and down the stack while primarily focusing on backend business logic and RESTful API enhancement. As a member of this team we have started the design and implementation of our new microservice architecture leveraging AWS."
+      "description": "Currently I work on a Agile team maintaining Allied's main monolithic desktop application (C#/.NET) that tracks thousands of loans, and the information related to those loans.  I work up and down the stack while primarily focusing on backend business logic and RESTful API enhancement.  In addition, I rotate build manager duties with a senior engineer on our team. As a member of this team we have started the design and implementation of our new microservice architecture leveraging AWS."
     },
     {
       "business": "Frasca International Inc.",
@@ -24,7 +24,7 @@
       "title": "System Software Engineer",
       "start": "January 2019",
       "end": "December 2020",
-      "description": "I developed and integrated software for flight simulators (C#/C++), updated legacy (C++) code, engineering lead on several successful and on-time projects, as well as troubleshot possible software issues for customers."
+      "description": "I developed and integrated software for flight simulators (C#/C++), which consisted of interfacing the software with hardware and mimicking hardware with software. This often led to collaboration with other engineering disciplines such as aeronautical, mechanical, electrical, and graphics. In addition, I was engineering lead on several successful, under budget, and on-time projects, including Frasca's first small aircraft with full motion. Other responsibilities included resolving software issues for customers, and an international trip to update avionics on a simulator."
     },
     {
       "business": "Kirby Medical Center",
@@ -33,9 +33,9 @@
       "start": "February 2014",
       "end": "July 2019",
       "description":
-        "At Kirby I deployed, troubleshot, and maintained PCs and servers (hardware & software). In addition, I created user accounts, maintained intranet page, created file shares, programmed telephone and door systems, performed minor networking tasks, and worked on pretty much anything electronic.",
+        "At Kirby I deployed, troubleshot, and maintained PCs and servers (hardware & software). In addition, I created user accounts, maintained an intranet page, created file shares, programmed telephone and door systems, performed minor networking tasks, and worked on pretty much anything electronic.",
       "cooperation":
-        "Worked with members of other departments to select, and implement a new time keeping system.  Helped coordinate tearing down, moving, and rebuilding several departments' workspace during a remodel.  Deployed and maintain virtual environment. Recipient of several thank you cards for exceptional attitude, and helpfulness."
+        "Worked with members of other departments to select, and implement a new time keeping system.  Helped coordinate tearing down, moving, and rebuilding several departments' workspace during a remodel.  Recipient of several thank you cards for exceptional attitude, and helpfulness."
     },
     {
       "business": "Parkland College",
@@ -110,7 +110,7 @@
       "proficiency": ""
     },
     {
-      "skill": "Go",
+      "skill": "Agile",
       "proficiency": ""
     }
   ]
