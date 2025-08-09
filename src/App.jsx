@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './app.css';
-import Work from './Sections/Work.js';
-import Education from './Sections/Education.js';
-import Details from './Sections/Details.js';
-import Skills from './Sections/Skills.js';
+import Work from './Sections/Work';
+import Education from './Sections/Education';
+import Details from './Sections/Details';
+import Skills from './Sections/Skills';
 import Info from './info.json';
 
 class App extends Component {
@@ -20,3 +20,5 @@ class App extends Component {
 }
 
 export default App;
+
+

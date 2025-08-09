@@ -30,3 +30,5 @@ Skills.propTypes ={
 };
 
 export default Skills;
+
+

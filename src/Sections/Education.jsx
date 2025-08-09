@@ -6,7 +6,7 @@ function SchoolList(props){
   const school = props.school;
   const list = school.map((schools)=>
     <div className="school">
-      <li classname="institutionHeader">{schools.institution}</li>
+      <li className="institutionHeader">{schools.institution}</li>
       <li>{schools.degree} - {schools.focus}</li>
       <li>{schools.studied}</li>
     </div>
@@ -31,3 +31,5 @@ Education.propTypes = {
   education: PropTypes.array,
 };
 export default Education;
+
+
